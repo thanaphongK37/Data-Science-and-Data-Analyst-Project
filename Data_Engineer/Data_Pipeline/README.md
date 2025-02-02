@@ -35,7 +35,7 @@ The main objectives of this project include:
    - Z-ordering organizes the data on disk in a way that co-locates related data, reducing the number of file scans and thus improving query performance and reducing storage costs.
    - This technique ensures that queries on frequently accessed data can be executed faster and more efficiently, lowering operational overhead.
 
-3. **Data Transformation**:
+3. **Data Transformation (ELT)**:
    - Once the data is ingested into **Delta Lake**, the pipeline processes and transforms it using **Azure Databricks**.
    - The data is cleaned, validated, and structured in a way that makes it ready for downstream analytics and machine learning.
 
