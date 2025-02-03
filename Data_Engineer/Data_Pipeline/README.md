@@ -3,6 +3,8 @@
 ## 📘 Overview
 Collaborated with a **Data Engineering** project focuses on building a scalable and efficient **data pipeline** to process and transform data from various sources into **Delta Lake** for storage and further processing. This pipeline supports a range of data sources, including **Azure Storage Tables**, **SQL Server**, **MongoDB**, and various **APIs**. The aim is to streamline data ingestion, improve cost efficiency, and ensure that data is available in an optimal format for analysis and machine learning.
 
+![Data Diagram](https://github.com/thanaphongK37/Data-Science-and-Data-Analyst-Project/blob/main/Data_Engineer/Data_Pipeline/Diagramdata%20pipeline.png)
+
 ## 🎯 Objective
 The main objectives of this project include:
 - **Ingest data from multiple sources** (Azure Storage Tables, SQL Server, MongoDB, APIs) into **Delta Lake**.
@@ -12,6 +14,7 @@ The main objectives of this project include:
 - Create a **monitoring and alerting dashboard** to track the pipeline's performance and provide timely notifications for failures or issues.
 
 ---
+
 
 ## 🔧 Technologies Used
 - **Azure Data Factory**: For orchestrating the data pipeline and managing data movement between sources and Delta Lake.
