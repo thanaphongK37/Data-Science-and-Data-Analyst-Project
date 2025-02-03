@@ -68,8 +68,3 @@ After data ingestion, **Databricks** is used to **upsert new records** into the 
 Once the data update is completed, the **pipeline logs the process execution status** into a monitoring table. This log is essential for **tracking pipeline performance** and identifying potential failures.  
 ![ชื่อรูปภาพ](https://github.com/thanaphongK37/Data-Science-and-Data-Analyst-Project/blob/main/Data_Engineer/Data_Pipeline/Data_Pipeline_Using_DataFactory/InsertLog.png)
 
----
-
-## 📌 Additional Notes  
-To display a **Data Pipeline Diagram**, use the following Markdown syntax:  
-
