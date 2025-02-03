@@ -5,7 +5,9 @@
 2. [Setup Databricks Cluster](#2-setup-databricks-cluster)  
 3. [Data Ingestion from Azure Storage](#3-data-ingestion-from-azure-storage)  
 4. [Data Transformation using Spark](#4-data-transformation-using-spark)  
-5. [Upsert Data to Data Lake](#5-upsert-data-to-data-lake)  
+5. [Upsert Data to Data Lake](#5-upsert-data-to-data-lake)
+6. [Data Ingestion From API](#3-data-ingestion-from-azure-storage)  Waiting
+7. [Data Ingestion From MonggoDB](#3-data-ingestion-from-azure-storage)  Waiting
 
 ---
 
