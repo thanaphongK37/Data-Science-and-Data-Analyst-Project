@@ -3,6 +3,9 @@
 ## 📘 Overview
 The **Data Model** project focuses on transforming raw data ingested into **Delta Lake** into structured, organized datasets that can be easily accessed and analyzed by the **Data Science**, **Data Analyst**, and **Support** teams. The structured data is stored in a **Data Warehouse** to allow fast and efficient data querying, enabling teams to derive insights and create visualizations more effectively.
 
+![ชื่อรูปภาพ](https://github.com/thanaphongK37/Data-Science-and-Data-Analyst-Project/blob/main/Data_Engineer/Data_Model/Diagram%20data%20Model.png)
+
+
 ## 🎯 Objective
 The goal of this project is to build a **Data Model** that:
 - **Data Warehouse**: Organizes the data into a **Data Warehouse**, where different models are stored and structured to facilitate easier querying and faster processing.
