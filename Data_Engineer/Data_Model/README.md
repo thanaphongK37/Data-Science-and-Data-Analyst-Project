@@ -18,27 +18,22 @@ The goal of this project is to build a **Data Model** that:
 - **Azure Data Factory**: For orchestration of the ETL pipeline.
 - **Data Warehouse**: Used for storing optimized data models.
 
+## Data Modelling
+![ชื่อรูปภาพ](https://github.com/thanaphongK37/Data-Science-and-Data-Analyst-Project/blob/main/Data_Engineer/Data_Model/datamodel%20diagram.png)
+
+
 ## 🛠️ Process
 
-1. **Data Ingestion and Storage**:
-   - Raw data from various sources, such as **SQL Server**, **MongoDB**, **Azure Storage Tables**, and **APIs**, are ingested into **Delta Lake**.
-   - **Delta Lake** ensures that the data is stored in a fault-tolerant and scalable format, making it reliable for further transformations.
+1. **Create Delta Table**:
+   - Create table Schema follow Unity Catalog
+   -  ![ชื่อรูปภาพ](https://github.com/thanaphongK37/Data-Science-and-Data-Analyst-Project/blob/main/Data_Engineer/Data_Model/Create_delta_table.png)
+  
+3. **Tranfrom data**:
+   - Create a script for transforming data into a Data Warehouse for use in Data Science and Data Analytics projects, enabling Machine Learning or Visualization tasks.
+   - ![ชื่อรูปภาพ](https://github.com/thanaphongK37/Data-Science-and-Data-Analyst-Project/blob/main/Data_Engineer/Data_Model/update_data_to_datamodel.png)
+   
 
-2. **Data Warehouse Design**:
-   - A **Data Warehouse** is structured to optimize query performance. Data is organized into **Data Models** that support the needs of different teams (Data Science, Data Analyst, and Support).
-   - The warehouse is designed to facilitate faster and more efficient querying, enabling quick access to high-quality data for further analysis.
-   - Multiple **Data Models** are created to reflect key business entities, such as customer profiles, transactions, product information, and campaign results.
-
-3. **Optimizing for Analytics**:
-   - The structured data in the **Data Warehouse** is optimized for use in **Data Science** and **Data Analytics** projects.
-   - It ensures that teams can easily access data for running machine learning models, generating reports, and visualizing trends or patterns.
-
-4. **Performance and Scalability**:
-   - By storing the data in a structured **Data Warehouse**, the system can handle large volumes of data and scale as the organization grows.
-   - Data models are optimized for faster querying, reducing the time taken to generate reports or analyze trends.
-   - **Indexing** and **partitioning** strategies are applied to enhance query performance and minimize data retrieval times.
-
-5. **Support for Downstream Use**:
+4. **Support for Downstream Use**:
    - The **Data Warehouse** makes it easier for **Support teams** to pull data for customer service, billing inquiries, and troubleshooting.
    - The data is structured to ensure that it is easy to access without having to go through raw data, saving time and effort.
 
